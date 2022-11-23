@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloneRecordsWithRelated</fullName>
+    <types>
+        <members>UTIL_CloneObjectAndRelatedrecord</members>
+        <members>UTIL_CloneObjectAndRelatedrecord_Test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Record_Clone_Setting__mdt.RelatedObject__c</members>
+        <members>Record_Clone_Setting__mdt.SourceObject__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Record_Clone_Setting__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Clone_Record_With_Related</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Record_Clone_Setting__mdt-Record Clone Setting Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>56.0</version>
+</Package>
